@@ -4,7 +4,7 @@ A 2D animation that shows a menu with numerous food items that may be chosen fro
 
 ## Getting Started
 
-**Read the [CONTRIBUTION.md](./CONTRIBUTING.md) before contributing.**
+**Read the [CONTRIBUTION.md](./CONTRIBUTION.md) before contributing.**
 
 1. Star and Fork the repository.
 2. Clone the repository using the following command in Git: `git clone https://github.com/pranshi112/FoodMenu.git`
