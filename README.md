@@ -11,7 +11,10 @@ A 2D animation that shows a menu with numerous food items that may be chosen fro
    ```
    git clone https://github.com/pranshi112/FoodMenu.git
    ```
-3. Navigate inside the cloned project using `cd FoodMenu`
+3. Navigate inside the cloned project using
+   ```
+   cd FoodMenu
+   ```
 4. You are now on the *main* branch. To start making changes, switch to a new branch using 
    ```
    git checkout -b <BRANCH-NAME>
@@ -27,6 +30,9 @@ A 2D animation that shows a menu with numerous food items that may be chosen fro
     git add .
     git commit -m <message>
     ```
-2. Push these changes to your forked repository using `git push origin <CURRENT-BRANCH-NAME>`
+2. Push these changes to your forked repository using 
+   ```
+   git push origin <CURRENT-BRANCH-NAME>
+   ```
 3. Go to your forked repository, reload, and click on the **Compare & pull request** button.
 4. Create the pull request with a detailed description of your changes.
