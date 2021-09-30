@@ -9,6 +9,7 @@ public class DropdownHandler : MonoBehaviour
     public GameObject parent;
     private Transform item;
     public GameObject chef;
+    public Text orderReadyText;
 
 
     private void Start()
@@ -25,6 +26,7 @@ public class DropdownHandler : MonoBehaviour
         chef.SetActive(true);
         itemName = gameObject.GetComponent<Dropdown>().options[val].text;
         item = parent.transform.Find(itemName);
+        orderReadyText.text = "Your " + itemName + " is ready!";
         item.gameObject.SetActive(true);
     }
 }

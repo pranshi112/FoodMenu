@@ -1001,6 +1001,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parent: {fileID: 477377107}
   chef: {fileID: 193164729}
+  orderReadyText: {fileID: 583294946}
 --- !u!1 &812732424
 GameObject:
   m_ObjectHideFlags: 0
