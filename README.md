@@ -20,8 +20,9 @@ A 2D animation that shows a menu with numerous food items that may be chosen fro
    git checkout -b <BRANCH-NAME>
    ```
 5. Install Unity LTS Release 2019.4.16f1 from the link [here](https://unity3d.com/unity/qa/lts-releases?version=2019.4&page=2).
-6. Open the project folder in the Unity Editor and do all of your work in __16:9 aspect ratio__ of the Game View.
-7. You're all set! Go on making changes.
+6. Open the project folder in the Unity Editor.
+7. Navigate to `Scenes` folder and open `SampleScene`. Do all of your work in __16:9 aspect ratio__ of the Game View.
+8. You're all set! Go on making changes.
 
 ## Make a Pull Request
 
