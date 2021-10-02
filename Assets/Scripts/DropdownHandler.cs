@@ -26,7 +26,7 @@ public class DropdownHandler : MonoBehaviour
         chef.SetActive(true);
         itemName = gameObject.GetComponent<Dropdown>().options[val].text;
         item = parent.transform.Find(itemName);
-        orderReadyText.text = "Your " + itemName + " is ready!";
+        orderReadyText.text = "Your " + itemName + "\nis ready!";
         item.gameObject.SetActive(true);
     }
 }
