@@ -23,10 +23,17 @@ public class DropdownHandler : MonoBehaviour
         foreach (var food in allFoodItems)
             food.SetActive(false);
 
-        chef.SetActive(true);
         itemName = gameObject.GetComponent<Dropdown>().options[val].text;
         item = parent.transform.Find(itemName);
-        orderReadyText.text = "Your " + itemName + " is ready!";
-        item.gameObject.SetActive(true);
+
+        chef.SetActive(item != null);
+
+        var displayText = "";
+        if (val > 0)
+        {
+            displayText = item == null ? "Item unavailable! Order something else." : $"Your {itemName} is ready!";
+        }
+        orderReadyText.text = displayText;
+        item?.gameObject.SetActive(true);
     }
 }
