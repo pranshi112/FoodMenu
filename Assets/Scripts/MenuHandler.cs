@@ -10,7 +10,7 @@ public class MenuHandler : MonoBehaviour
     public GameObject[] handler;
     public GameObject[] handler2;
 
-    //toggles SetActive of Game Objects
+    //toggles SetActive
     public void Handler()
     {
         if (toggle == false)
