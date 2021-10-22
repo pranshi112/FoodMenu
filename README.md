@@ -24,6 +24,21 @@ A 2D animation that shows a menu with numerous food items that may be chosen fro
 7. Navigate to `Scenes` folder and open `SampleScene`. Do all of your work in __16:9 aspect ratio__ of the Game View.
 8. You're all set! Go on making changes.
 
+## Run the Builds
+
+**For Windows build**
+
+1. Navigate to `Build\WinBuild` folder and open `Foodmenu.exe`.
+
+**For WebGL build**
+
+The __correct__ way to run Unity-WebGL build locally is to use a simple server.
+
+1. Install Servez, a simple web server for local web development, from the link [here](https://greggman.github.io/servez/).
+2. Run Servez and locate `Build\WebGL` in __Folder to Serve__.
+3. Click __Start__ and then __Launch Browser__. Now the WebGL build will run.
+4. To stop server, Click __Stop__ in Servez.
+
 ## Make a Pull Request
 
 1. Commit your changes in the local project using the following commands in Git:
