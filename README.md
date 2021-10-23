@@ -83,5 +83,8 @@ __ALTERNATIVE 4: SimpleHTTPServer__
    python -m SimpleHTTPServer <portNum>
    ```
    If your didn't put any `portNum` by default, this will run on port 8000.
-5. Then direct your browser to "http://localhost:<portNum>".
+5. Then direct your browser to :
+   ```
+   http://localhost:<portNum>
+   ```
 6. To stop server, go to command prompt and press `Ctrl + C`.
