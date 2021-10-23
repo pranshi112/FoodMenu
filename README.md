@@ -24,6 +24,20 @@ A 2D animation that shows a menu with numerous food items that may be chosen fro
 7. Navigate to `Scenes` folder and open `SampleScene`. Do all of your work in __16:9 aspect ratio__ of the Game View.
 8. You're all set! Go on making changes.
 
+## Make a Pull Request
+
+1. Commit your changes in the local project using the following commands in Git:
+    ```
+    git add .
+    git commit -m <message>
+    ```
+2. Push these changes to your forked repository using 
+   ```
+   git push origin <CURRENT-BRANCH-NAME>
+   ```
+3. Go to your forked repository, reload, and click on the **Compare & pull request** button.
+4. Create the pull request with a detailed description of your changes.
+
 ## Run the Builds
 
 **For Windows build**
@@ -39,16 +53,17 @@ The __correct__ way to run Unity-WebGL build locally is to use a simple server.
 3. Click __Start__ and then __Launch Browser__. Now the WebGL build will run.
 4. To stop server, Click __Stop__ in Servez.
 
-## Make a Pull Request
+__ALTERNATIVE 1: XAMPP__
 
-1. Commit your changes in the local project using the following commands in Git:
-    ```
-    git add .
-    git commit -m <message>
-    ```
-2. Push these changes to your forked repository using 
-   ```
-   git push origin <CURRENT-BRANCH-NAME>
-   ```
-3. Go to your forked repository, reload, and click on the **Compare & pull request** button.
-4. Create the pull request with a detailed description of your changes.
+1. Install XAMPP, a open source Apache server distribution, from the link [here](https://www.apachefriends.org/download.html).
+2. Run XAMPP and click __Config__ on __Apache__ module row and then click `Apache (httpd.conf)`.
+3. Replace __DocumentRoot "C:/xamppm/apache"__ and __<Directory "C:/xamppm/apache">__ with `Build\WebGL`'s absolute path.
+4. Save and close it. Then start Apache server and click __Admin__.
+5. To stop server, Click __Stop__ in XAMPP Control Panel.
+
+__ALTERNATIVE 2: Live Server__
+
+1. Install Visual Studio Code from the link [here](https://code.visualstudio.com/).
+2. Run Visual Studio Code, Go to `File -> Open Folder`, locate `Build\WebGL`.
+3. Go to __Extensions__ from left toolbar and install __Live Server__ extension.
+4. Then, right click on `index.html` from Visual Studio Code and click __Open with Live Server__. 
