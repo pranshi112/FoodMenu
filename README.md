@@ -82,7 +82,7 @@ __ALTERNATIVE 4: SimpleHTTPServer__
    # For python 2
    python -m SimpleHTTPServer <portNum>
    ```
-   If your didn't put any `portNum` by default, this will run on port 8000.
+   If you didn't put any `portNum` by default, this will run on port 8000.
 5. Then direct your browser to :
    ```
    http://localhost:<portNum>
